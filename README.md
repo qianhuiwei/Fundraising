@@ -1,4 +1,4 @@
-# Perfume
+# Fundraising
 
 This is a webpage that demonstrates an online fundraising platform.  
 
