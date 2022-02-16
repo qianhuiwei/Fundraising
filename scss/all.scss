@@ -1,0 +1,190 @@
+@import "bootstrap/bootstrap";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600);
+@import "index";
+@import "faq";
+
+body {
+    font-family: "Noto Sans TC";
+}
+
+.ff-baloo {
+    font-family: "Baloo Tamma 2";
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+form {
+    select {
+        background-color: #F7F7F7 !important;
+        color: #999999;
+        &:hover{
+            outline: 1px solid #FF785E !important;
+        }
+    }
+    input {
+        background: #F7F7F7 !important;
+        &:hover{
+            outline: 1px solid #FF785E !important;
+        }
+    }
+}
+
+.header img {
+    width: 111px;
+    height: 40px;
+}
+
+.main{
+    .banner {
+        .wrap{
+            span {
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+            .row {
+                .col-lg-7 {
+                    img{
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        .nav {
+            border-bottom: 1px solid #E8E8DB;
+        }
+        .row {
+            .aside {
+                .contactUs {
+                    li {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                .donate-option {
+                    .border-wrap {
+                        border: 1px solid #E8E8DB;
+                        border-bottom-left-radius: 8px;
+                        border-bottom-right-radius: 8px;
+                        .limit{
+                            border-bottom: 1px solid #E8E8DB;
+                        }
+                    }
+                    .label1{
+                        background: #E8E8DB;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.activity-img {
+    height: 100%;
+    // border-top-left-radius: 1px;
+    // border-bottom-left-radius: 1px;
+}
+
+.bg-lightGray{
+    background:#F8F9FA;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.radius-4{
+    border-radius: 4px;
+}
+
+.radius-8{
+    border-radius: 8px;
+}
+
+.ls-1{
+    letter-spacing: 1px;
+}
+
+.ls-2{
+    letter-spacing: 2px;
+}
+
+.ls-3{
+    letter-spacing: 3px;
+}
+
+.hover-red:hover {
+    background: #FF785E !important;
+    color:white !important;
+}
+
+.hover-yellow:hover {
+    background: #FFDF65 !important;
+    color: #858377 !important;
+}
+
+.hover-icon-red:hover i{
+    color:#FF785E !important;
+}
+
+.hover-bold:hover {
+    font-weight: bold;
+}
+
+.hover-display:hover .d-none{
+    display:block !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border:none;
+    border-bottom: 2px solid #FFDF65 !important;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+}
+
